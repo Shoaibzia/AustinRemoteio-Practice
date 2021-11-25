@@ -1,0 +1,86 @@
+.Hero {
+    padding: 15px 65px;
+    background-color: #EBE8E7;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    @media (min-width: 321px) and (max-width:767px) {
+        padding: 15px;
+    }
+    // Hero 1st Child
+    .Hero-ID {
+        display: flex;
+        width: 275px;
+        height: 30px;
+        margin-bottom: 19px;
+        align-items: center;
+        margin-top: 10px;
+        .Device { 
+            // width: 84px;
+            height: 30px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 26px;
+            width: 122px;
+            color: #584439;
+            background-color: #EBE8E7;
+            display: flex;
+            align-items: center;
+            padding-right: 20px;
+        }
+        .Arlo-PI {
+            width: 275px;
+            height: 52px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #FFFFFF;
+            border-radius: 6px;
+            p{ 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 24px;
+                color: #81736A;
+            }
+            img {
+                width: 13.37px;
+                height: 5.91px;
+            }
+        }
+    }
+    // Hero 2nd Child 
+    .Hero-Day {
+        width: 275px;
+        height: 30px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        .Date { 
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            width: 79px;
+            line-height: 26px;
+            color: #584439;
+        }
+        .Time {
+            padding: 17px 24px;
+            background: #FFFFFF;
+            border-radius: 6px; 
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px; 
+            color: #8C7F77;
+            width: 186px;
+            height: 52px;
+        }
+    }
+}
+
+
